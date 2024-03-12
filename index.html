@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title> Atividade 3 - JavaScript </title>
+</head>
+<body>
+
+<p class="cabecalho"> Calculadora </p>
+
+<form class="form" method="post" autocomplete="off">
+    <div class="corpodoForm">
+        <h1> Operação de dois números </h1>
+        <input type="text" placeholder="Numero 1" class="valor1">
+        <input type="text" placeholder="Numero 2" class="valor2">
+
+
+        <select class="select"> 
+            <option disabled selected> escolha a operação </option>
+            <option value="soma"> soma </option>
+            <option value="subtracao"> subtração </option>
+            <option value="multiplicacao"> multiplicação </option>
+            <option value="divisao"> divisão </option> 
+        </select>
+         
+        <div class="divider"></div> 
+
+        <div class="resultado">
+        <div class="label">
+        <label for="get"> Resultado </label>
+        </div>
+        <input type="text" name="get" class="resultado2"> 
+        </div>
+        <button class="limpar"> Limpar tudo</button>
+    </div>
+</form>
+
+<footer> Desenvolvido por Raí Rodrigues </footer>
+  
+<script src="./calculos.js"> </script>
+</body>
+</html>

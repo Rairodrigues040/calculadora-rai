@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:  #efefef;
+}
+h1{
+    margin-top: 18px;
+    font-size: 12px;
+    font-family: arial;
+    color: #555;
+}
+
+.cabecalho{
+margin:0;
+padding: 16px;
+text-align: center;
+background-color: #1287F2;
+font-size: 18px;
+color: #F9F9F9;
+}
+
+.corpodoForm{
+    margin-top: 120px;
+    text-align: center;
+    margin-left: auto; /* esses margin servem para centralizar a caixar*/
+    margin-right: auto;
+    height: 318px;
+    width: 280px;
+
+    background-color:#F9F9F9 ;
+    border-radius: 14px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0px 0px 4px 0px;
+}
+.corpodoForm input{
+    width: 150px;
+    height: 30px;
+    margin: auto;
+}
+.select{
+    width: 155px;
+    height: 35px;
+    margin: auto;
+    color: #666;
+}
+.divider{
+    background-color: #666;
+    width: 55%;
+    margin: auto;
+    height: 1px;
+}
+.resultado, .label{
+    text-align:left;
+    margin: auto;
+    color: #555;
+    font-family: arial;
+    font-size: 14px;
+}
+.limpar{
+    width: 100px;
+    margin: auto;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-family: arial;
+}
